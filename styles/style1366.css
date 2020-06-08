@@ -1,0 +1,15 @@
+@media (max-width: 1366px) {
+  body {
+    font-size: 9px;
+  }
+  .boxs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .abaut .img {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=style1366.css.map */

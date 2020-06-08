@@ -1,0 +1,160 @@
+@media(max-width:480px) {
+    body {
+        font-size: 8px;
+
+        .homeSection {
+            .box200 {
+                height: 90px;
+            }
+        }
+
+        .abaut {
+            .img {
+                flex-direction: column;
+
+                .box {
+                    width: 100%;
+
+                    &:nth-child(1).active {
+                        animation: imgBox .1s both;
+                    }
+
+                    &:nth-child(2).active {
+                        animation: imgBox .1s .1s linear both;
+                    }
+
+                    &:nth-child(3).active {
+                        animation: imgBox .1s .2s linear both;
+                    }
+
+                    &:nth-child(4).active {
+                        animation: imgBox .1s .3s linear both;
+                    }
+                }
+            }
+        }
+
+        .servicesNext {
+
+            .boxs {
+                flex-direction: column;
+
+                .box {
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+        }
+
+        .portfolio {
+            .container {
+                flex-direction: column;
+
+                .imghover {
+                    width: 100%;
+
+                    .text {
+                        font-size: 2.2em;
+
+                        p {
+                            font-size: 1.5em;
+                        }
+                    }
+
+                    .icon {
+                        a {
+                            i {
+                                font-size: 2.5em;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .team {
+            .wrapper {
+                .teamitems {
+                    .images {
+                        img {
+                            width: 26vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        .statistic {
+            .container {
+                div {
+                    h1 {
+                        font-size: 2.5em;
+                    }
+                }
+            }
+        }
+
+        .mapacontainer {
+            .adressdata {
+                font-size: 1.4em;
+            }
+        }
+
+        .menuList {
+            height: 100vh;
+
+            .wrapper {
+                .logo {
+                    a {
+                        font-size: 1.3em;
+                    }
+                }
+
+                p {
+                    font-size: 1.1em;
+                }
+
+                .fa-arrow-circle-right {
+                    font-size: 6em;
+                    position: absolute;
+                    top: 15vh;
+                    left: 4vh;
+
+                }
+            }
+        }
+
+    }
+
+    .servicesNext {
+        .boxs {
+            .box {
+                &:nth-child(1).active {
+                    animation: imgBox .1s both;
+                }
+
+                &:nth-child(2).active {
+                    animation: imgBox .1s .1s both;
+                }
+
+                &:nth-child(3).active {
+                    animation: imgBox .1s .1s both;
+                }
+
+                &:nth-child(4).active {
+                    animation: imgBox .1s .1s both;
+                }
+
+                &:nth-child(5).active {
+                    animation: imgBox .1s .1s both;
+                }
+
+                &:nth-child(6).active {
+                    animation: imgBox .1s .1s both;
+                }
+            }
+        }
+    }
+}

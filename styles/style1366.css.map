@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAC,SAAS,EAAE,MAAM;EACpB,AAAA,IAAI,CAAC;IACD,SAAS,EAAE,GAAG;GACjB;EAID,AAAA,KAAK,CAAC;IACF,eAAe,EAAE,MAAM;GAG1B;EAED,AACI,MADE,CACF,IAAI,CAAC;IACD,SAAS,EAAE,IAAI;GAClB",
+    "sources": [
+        "style1366.scss"
+    ],
+    "names": [],
+    "file": "style1366.css"
+}

@@ -1,0 +1,112 @@
+@media (max-width: 800px) {
+  body {
+    font-size: 8px;
+  }
+  body .pricing .container .buttons {
+    padding: .4vh 4vw;
+  }
+  body .pricing .container .buttons .button {
+    margin: .5vh -1.5vw;
+  }
+  body .homeSection .navMenu .logo {
+    top: 2%;
+    left: 1%;
+  }
+  body .homeSection .navMenu .logo a {
+    font-size: 4em;
+  }
+  body .homeSection ul li a {
+    padding: 1.5vh 0;
+  }
+  body .abaut .img .box {
+    width: 30vw;
+  }
+  body .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .services .text,
+  body .services .images {
+    text-align: left;
+    width: 100%;
+  }
+  body .portfolio .container .imghover {
+    width: 35%;
+  }
+  body .portfolio .container .imghover .text h1 {
+    font-size: 1.2rem;
+  }
+  body .portfolio .container .imghover .text p {
+    font-size: 0.5rem;
+  }
+  body .team .wrapper .teamitems h1 {
+    font-size: 4.5em;
+  }
+  body .team .wrapper .teamitems p {
+    font-size: 3em;
+  }
+  body .team .buttons .button.button3, body .team .buttons .button.button4, body .team .buttons .button.button5, body .team .buttons .button.button6, body .team .buttons .button.button7, body .team .buttons .button.button8 {
+    display: inline-block;
+  }
+  body .tabele {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  body .tabele .tabela {
+    margin: 0 auto;
+    width: 100%;
+  }
+  body .tabele .tabela .bay {
+    width: 12vh;
+  }
+  body .tabele .tabela ul li {
+    font-size: 2em;
+  }
+  body .mapacontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .mapacontainer .mapa {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  body .mapacontainer .mapa iframe {
+    width: 100%;
+  }
+  body .mapacontainer .adressdata {
+    font-size: 1.7em;
+    width: 100%;
+  }
+  body .mapacontainer .adressdata .logo {
+    bottom: -5.5vh;
+  }
+  body .contact {
+    width: 90%;
+  }
+  body .blissful .container {
+    display: -webkit-inline-box;
+  }
+  body .blissful .container.active {
+    left: -100%;
+  }
+  body .blissful .container .blog {
+    width: 50%;
+    padding: 6vh 8vw;
+  }
+  body .blissful .container .blog .imgText img {
+    width: 23vw;
+    height: 23vw;
+  }
+  body .blissful .buttons .button.button3, body .blissful .buttons .button.button4 {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=style800.css.map */

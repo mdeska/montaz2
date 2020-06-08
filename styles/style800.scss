@@ -1,0 +1,214 @@
+@media(max-width:800px) {
+    body {
+        font-size: 8px;
+
+        .pricing {
+            .container {
+                .buttons {
+                    padding: .4vh 4vw;
+
+                    .button {
+                        margin: .5vh -1.5vw;
+                    }
+                }
+            }
+        }
+
+        .homeSection {
+            .navMenu {
+                .logo {
+                    top: 2%;
+                    left: 1%;
+
+
+                    a {
+                        font-size: 4em;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    a {
+                        padding: 1.5vh 0;
+                    }
+                }
+            }
+
+
+        }
+
+
+        .abaut {
+            .img {
+                .box {
+                    width: 30vw;
+                }
+            }
+        }
+
+        .services {
+            flex-direction: column;
+
+
+
+
+            .text,
+            .images {
+                text-align: left;
+                width: 100%;
+            }
+
+        }
+
+        .portfolio {
+            .container {
+                .imghover {
+                    width: 35%;
+
+                    .text {
+                        h1 {
+
+                            font-size: 1.2rem;
+                        }
+
+                        p {
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .team {
+            .wrapper {
+                // display: -webkit-inline-box;
+
+                .teamitems {
+                    // width: 50%;
+                    // margin: .1vh;
+                    // box-shadow: $shadow1;
+
+                    h1 {
+                        font-size: 4.5em;
+                    }
+
+                    p {
+                        font-size: 3em;
+                    }
+
+                    .images {
+                        img {
+                            // width: 35vw;
+                            // height: 24vh;
+
+                        }
+                    }
+                }
+            }
+
+            .buttons {
+                .button {
+
+                    &.button3,
+                    &.button4,
+                    &.button5,
+                    &.button6,
+                    &.button7,
+                    &.button8 {
+                        display: inline-block;
+                    }
+                }
+
+            }
+        }
+
+
+        .tabele {
+            flex-direction: column;
+            width: 80%;
+
+
+            .tabela {
+                margin: 0 auto;
+                width: 100%;
+
+                .bay {
+                    width: 12vh;
+                }
+
+                ul {
+                    li {
+                        font-size: 2em;
+                    }
+                }
+            }
+        }
+
+        .mapacontainer {
+            flex-direction: column;
+
+            .mapa {
+                margin: 0 auto;
+                text-align: center;
+                width: 100%;
+
+
+
+                iframe {
+                    width: 100%;
+                }
+            }
+
+            .adressdata {
+                font-size: 1.7em;
+                width: 100%;
+
+                .logo {
+                    bottom: -5.5vh;
+                }
+            }
+
+        }
+
+        .contact {
+            width: 90%;
+        }
+
+        .blissful {
+            .container {
+                display: -webkit-inline-box;
+
+                &.active {
+                    left: -100%;
+                }
+
+
+
+                .blog {
+                    width: 50%;
+                    padding: 6vh 8vw;
+
+                    .imgText {
+                        img {
+                            width: 23vw;
+                            height: 23vw;
+                        }
+                    }
+                }
+            }
+
+            .buttons {
+                .button {
+
+                    &.button3,
+                    &.button4 {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

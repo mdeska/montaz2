@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  body {
+    font-size: 8px;
+  }
+  body .homeSection .navMenu .logo {
+    top: 5%;
+    left: 2%;
+  }
+  body .homeSection .navMenu .logo a {
+    font-size: 4em;
+  }
+  body .homeSection ul li a {
+    padding: 1.8vh 0;
+  }
+  body .portfolio .container .imghover {
+    width: 28%;
+  }
+  body .portfolio .container .imghover .text h1 {
+    font-size: 1.2rem;
+  }
+  body .portfolio .container .imghover .text p {
+    font-size: 0.5rem;
+  }
+}
+/*# sourceMappingURL=style1024.css.map */

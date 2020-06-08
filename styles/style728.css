@@ -1,0 +1,33 @@
+@media (max-width: 728px) {
+  body .homeSection .navMenu#menu1 {
+    display: none;
+  }
+  body .homeSection .navMenu#menu2 {
+    display: block;
+  }
+  body .blogArt .containerBlog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .blogArt .containerBlog .blog {
+    width: 100%;
+  }
+  body .menuList {
+    height: 100vh;
+  }
+  body .menuList .wrapper .logo a {
+    font-size: 1.5em;
+  }
+  body .menuList .wrapper p {
+    font-size: 1.3em;
+  }
+  body .menuList .wrapper .fa-arrow-circle-right {
+    font-size: 6em;
+    position: absolute;
+    top: 17vh;
+    left: 4vh;
+  }
+}
+/*# sourceMappingURL=style728.css.map */

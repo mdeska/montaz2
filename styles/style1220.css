@@ -1,0 +1,11 @@
+@media (max-width: 1229px) {
+  .mapa {
+    width: 45%;
+    overflow: hidden;
+  }
+  .adressdata {
+    margin-left: 8vw;
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=style1220.css.map */

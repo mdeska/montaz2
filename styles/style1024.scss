@@ -1,0 +1,61 @@
+@media(max-width:1024px) {
+
+
+
+
+
+
+    body {
+        font-size: 8px;
+
+        .homeSection {
+            .navMenu {
+                .logo {
+                    top: 5%;
+                    left: 2%;
+
+
+                    a {
+                        font-size: 4em;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    a {
+                        padding: 1.8vh 0;
+                    }
+                }
+            }
+
+
+        }
+
+
+
+
+
+        .portfolio {
+            .container {
+                .imghover {
+                    width: 28%;
+
+
+                    .text {
+                        h1 {
+
+                            font-size: 1.2rem;
+                        }
+
+                        p {
+                            font-size: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
